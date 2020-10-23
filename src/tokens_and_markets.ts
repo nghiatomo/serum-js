@@ -112,6 +112,14 @@ export const TOKEN_MINTS: Array<{ address: PublicKey; name: string }> = [
     address: new PublicKey('GeDS162t9yGJuLEHPWXXGrb1zwkzinCgRwnT8vHYjKza'),
     name: 'MATH',
   },
+  {
+    address: new PublicKey('EqWCKXfs3x47uVosDpTRgFniThL9Y8iCztJaapxbEaVX'),
+    name: 'LUA',
+  },
+  {
+    address: new PublicKey('GXMvfY2jpQctDqZ9RoU3oWPhufKiCcFEfchvYumtX7jd'),
+    name: 'TOMO',
+  },
   { address: WRAPPED_SOL_MINT, name: 'SOL' },
 ];
 
@@ -692,5 +700,17 @@ export const MARKETS: Array<{
     address: new PublicKey('2bPsJ6bZ9KDLfJ8QgSN1Eb4mRsbAiaGyHN6cJkoVLpwd'),
     programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
     deprecated: false,
-  },
+    },
+    {
+      name: 'TOMO/USDT',
+      address: new PublicKey('2bZU9YbPKExrm6xP8vMNm7XbHmvo4sCZytMk1cw8qqrb'),
+      programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
+      deprecated: false,
+    },
+    {
+      name: 'LUA/USDT',
+      address: new PublicKey('61KkA6pHK6GHMRhaB5LmXMBbyZgEE3ZdDTfXb8Lke1Vj'),
+      programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
+      deprecated: false,
+    },
 ];
